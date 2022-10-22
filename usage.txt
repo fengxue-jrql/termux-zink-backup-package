@@ -1,0 +1,13 @@
+只需要恢复termux环境和安装termux-x11 apk,不需要安装termux-x11.deb,在termux-x11里体验不错。
+
+恢复:
+
+termux-setup-storage
+
+同意存储空间访问权限
+
+termux-restore /sdcard/backup.tar.xz
+
+等待恢复完成。
+
+该驱动是suhan-paradkar和eNB256的termux zink混合而成的。是mesa galium_zink的termux恢复包。
